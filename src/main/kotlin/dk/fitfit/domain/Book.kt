@@ -1,4 +1,4 @@
-package dk.fitfit
+package dk.fitfit.domain
 
 import io.micronaut.core.annotation.Introspected
 

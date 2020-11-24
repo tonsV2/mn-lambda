@@ -2,7 +2,7 @@
 
 [AWS Lambda Handler](https://docs.aws.amazon.com/lambda/latest/dg/java-handler.html)
 
-Handler: dk.fitfit.BookRequestHandler
+Handler: dk.fitfit.handler.BookRequestHandler
 
 ## Feature aws-lambda documentation
 
@@ -10,5 +10,5 @@ Handler: dk.fitfit.BookRequestHandler
 
 ```bash
 ./gradlew shadowJar
-aws s3 cp build/libs/lambda-1.0.0-all.jar s3://sketch-lambda/mn/v1.0.0/lambda-1.0.0-all.jar
+aws s3 cp build/libs/lambda-1.0.0-all.jar s3://my-lambda/mn/v1.0.0/lambda-1.0.0-all.jar
 ```
